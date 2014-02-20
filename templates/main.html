@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>DripBox</title>
+    {% load staticfiles %}
+    <script src="{% static "js/lib/jquery-2.0.2.js" %}"  type="text/javascript"></script>
+    <script src="{% static "js/lib/bootstrap.min.js" %}"  type="text/javascript"></script>
+    <script src="{% static "js/main.js" %}"  type="text/javascript"></script>
+
+    <link rel="stylesheet" href="{% static "css/lib/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "css/main.css" %}">
+
+    <link rel="shortcut icon" href="{% static "img/miniLogo.jpg" %}" />
+</head>
+<body>
+<div id="wrapper">
+    <div id="mainLogo">
+        <img src="{% static "img/mainlogo.jpg" %}" alt="logo"/>
+    </div>
+    <div id="formbox">
+        <h1>어디서나 내 자료와 함께하세요</h1>
+        <div id="btnBox">
+            <button type="button" class="btn btn-block btn-brown" data-toggle="modal" data-target="#loginModal" id="loginModalBtn">Login</button>
+            <button type="button" class="btn btn-default btn-block" data-toggle="modal" data-target="#signupModal" id="signupModalBtn">Signup</button>
+        </div>
+    </div>
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h1 class="modal-title" id="myModalLabel">Login</h1>
+                </div>
+                <div class="modal-body">
+                    <form role="form" id="loginForm">
+                        {% csrf_token %}
+                        <div class="form-group" style="margin-top: 15px">
+                            <h4>Email address</h4>
+                            <input type="text" class="form-control" id="loginEmail" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <h4>Password</h4>
+                            <input type="password" class="form-control" id="loginPwd" placeholder="Password">
+                        </div>
+                        <label for="msg"></label>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-brown" id="loginBtn">Login</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal" id="loginCloseBtn">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h1 class="modal-title" id="myModalLabel">Signup</h1>
+                </div>
+                <div class="modal-body">
+                    <form role="form">
+                        {% csrf_token %}
+                        <div class="form-group" style="margin-top: 15px">
+                            <h4>Email address</h4>
+                            <input type="text" class="form-control" id="signupEmail" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <h4>Password</h4>
+                            <input type="password" class="form-control" id="signupPwd1" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                             <h4>Password Confirm </h4>
+                            <input type="password" class="form-control" id="signupPwd2" placeholder="Password">
+                        </div>
+                        <label for="msg"></label>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-brown" id="signupBtn">Signup</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal" id="signupCloseBtn">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>

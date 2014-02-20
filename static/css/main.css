@@ -1,0 +1,58 @@
+#wrapper {
+	padding: 5% 0 0 0px;
+	height: 100%;
+}
+
+#mainLogo {
+    margin: 7% auto 0 auto;
+    text-align:center;
+    position: relative;
+}
+
+#formbox {
+    text-align: center;
+    margin: 5% 0 0 0;
+    padding: 0;
+}
+
+#btnBox{
+    text-align: center;
+    padding: 2% 30%;
+}
+
+#btnBox .btn{
+    height : 50px;
+    margin-bottom : 15px;
+    font-size : 20px;
+}
+
+.btn-brown{
+    border-color: #6E4211;
+    background-color: #8E6231;
+    color : #ffffff;
+}
+.btn-brown:hover{
+    background-color: #7E5221;
+    color : #ffffff;
+}
+.btn-brown:active{
+    background-color: #7E5221;
+    color : #ffffff;
+}
+.btn-brown:focus{
+    color : #ffffff;
+}
+
+.modal{
+    padding-top : 10%;
+}
+
+
+
+/*
+img[alt=logo]{
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right: auto;
+}
+*/

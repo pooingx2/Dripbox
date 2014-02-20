@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>DripBox</title>
+    {% load staticfiles %}
+    <script src="{% static "js/lib/jquery-2.0.2.js" %}"  type="text/javascript"></script>
+    <script src="{% static "js/lib/bootstrap.min.js" %}"  type="text/javascript"></script>
+    <script src="{% static "js/home.js" %}"  type="text/javascript"></script>
+
+    <link rel="stylesheet" href="{% static "css/lib/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "css/home.css" %}">
+
+    <link rel="shortcut icon" href="{% static "img/miniLogo.jpg" %}" />
+</head>
+<body>
+<div id="wrapper">
+    <div id=topbar>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Dripbox</a>
+                </div>
+
+                <ul class="nav navbar-nav" id="topBar">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Link1</a></li>
+                    <li><a href="#">Link2</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ email }}<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">{{ email }}</a></li>
+                            <li class="divider"></li>
+                            <li><a href="/logout/">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+
+    <div class="btn-group btn-group-justified" id=buttonGroup >
+        <button type="button" class="btn btn-block btn-brown" data-toggle="modal" data-target="#createModal" id="createModalBtn">새 폴더</button>
+        <button type="button" class="btn btn-block btn-brown" data-toggle="modal" data-target="#uploadModal" id="uploadModalBtn">업로드</button>
+        <button type="button" class="btn btn-block btn-brown" id="downloadBtn">다운로드</button>
+        <button type="button" class="btn btn-block btn-brown" id="deleteBtn">삭제</button>
+    </div>
+
+    <div id=fileList>
+        <!-- Table -->
+        <table class="table">
+            <tr class="active">
+                <td class="name"><strong>이름</strong></td>
+                <td class="type"><strong>유형</strong></td>
+                <td class="size"><strong>크기</strong></td>
+            </tr>
+            {% for item in folders %}
+                <tr class="folder">
+                    <td style="display:none;">{{ item.id }}</td>
+                    <td class="name"><a href="/home/?id={{ item.id }}">{{ item.name }}</a></td>
+                    <td class="type">{{ item.type }}</td>
+                    <td class="size"> {{ item.size }}</td>
+                </tr>
+            {% endfor %}
+            {% for item in files %}
+                <tr class="file">
+                    <td style="display:none;">{{ item.id }}</td>
+                    <td class="name">{{ item.name }}</td>
+                    <td class="type">{{ item.type }}</td>
+                    <td class="size"> {{ item.size }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
+
+
+<!-- Create Modal -->
+<div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h1 class="modal-title" id="myModalLabel">Create Folder</h1>
+            </div>
+            <div class="modal-body">
+                <form role="form">
+                    {% csrf_token %}
+                    <div class="form-group" style="margin-top: 15px">
+                        <h4>Folder Name</h4>
+                        <input type="text" class="form-control" id="folderName" placeholder="name">
+                    </div>
+                    <label for="msg"></label>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-brown" id="createBtn">Create</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="createCloseBtn">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Upload Modal -->
+<div class="modal fade" id="uploadModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h1 class="modal-title" id="myModalLabel">Upload File</h1>
+            </div>
+            <div class="modal-body">
+                <form role="form">
+                    {% csrf_token %}
+                    <div class="form-group" style="margin-top: 15px">
+                        <input id="fileChooser" type="file" multiple>
+                        <h4 style="margin-top: 15px"> </h4>
+                        <!-- Table -->
+                        <table class="table" id="selectedFile">
+                            <tr class="active">
+                                <td class="name"><strong>이름</strong></td>
+                                <td class="size"><strong>크기</strong></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <label for="msg"></label>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-brown" id="uploadBtn">Upload</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="uploadCloseBtn">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
