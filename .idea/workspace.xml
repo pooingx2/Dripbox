@@ -11,6 +11,38 @@
     <file path="/fileController.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1392796519854" ignored="false" />
     <file path="/urls.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1392794305144" ignored="false" />
     <file path="/home.js" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1392797311264" ignored="false" />
+    <file path="/Dummy.txt" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393482735349" ignored="false" />
+    <file path="$PROJECT_DIR$/../backend/backend/backend/settings.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393473965934" ignored="false" />
+    <file path="$PROJECT_DIR$/../backend/backend/users/views.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393473965934" ignored="false" />
+    <file path="/interface.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393786117040" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/test.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393784027905" ignored="false" />
+    <file path="/test.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393786564072" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/credential.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393763584634" ignored="false" />
+    <file path="/credential.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393483693267" ignored="false" />
+    <file path="/connection.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393784910187" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/SSGInterface/connection.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393784798465" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/common/utils.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393752452047" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/encrypt.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393747944490" ignored="false" />
+    <file path="/encrypt.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393747944490" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/tree.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393770181875" ignored="false" />
+    <file path="/tree.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393785070569" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/common/logs.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393751963575" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/fruit.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393767525086" ignored="false" />
+    <file path="/key.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393786045027" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/encryption.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393775745879" ignored="false" />
+    <file path="/encryption.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393775355961" ignored="false" />
+    <file path="/fruit.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393786340801" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/SSGInterface/bucket.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393784798465" ignored="false" />
+    <file path="/bucket.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393770024590" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/SSGInterface/test.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393784002790" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/SSG/__init__.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393784798465" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/SSG/tree.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393785070569" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/SSG/fruit.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393784892963" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/SSG/test.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393784798465" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/SSG/encryption.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393784920531" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/__init__.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393785082699" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/SSGClient/tree.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393785350687" ignored="false" />
+    <file path="$USER_HOME$/PycharmProjects/python_sdk/ssg/SSGClient/test.py" changelist="18dffcc2-b68d-4059-be5b-198ff3c09394" time="1393785350687" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,68 +61,108 @@
     <favorites_list name="Dripbox" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="27" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#20#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="21" selection-start="1216" selection-end="1216" vertical-scroll-proportion="-19.678572">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fileController.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/fileController.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="25" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="0" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#20#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/js/home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="37" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.36106196">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dripbox/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/admin.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="27" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="fileController.py" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/fileController.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="22" vertical-scroll-proportion="-0.85248715">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="60" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="interface.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ssg_model/interface.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="15" column="21" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="e#45#83#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="key.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ssg/SSGInterface/key.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="66" column="79" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="fruit.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ssg/SSGClient/fruit.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="75" column="24" selection-start="2376" selection-end="2376" vertical-scroll-proportion="-8.823529">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="155" column="68" selection-start="4205" selection-end="4209" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SSGarden.key" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ssg_model/SSGarden.key">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dripbox/wsgi.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="67" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="test.py" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ssg_model/test.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="16" column="20" selection-start="368" selection-end="368" vertical-scroll-proportion="0.397351">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -108,14 +180,21 @@
         <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/app/fileController.py" />
         <option value="$PROJECT_DIR$/static/js/home.js" />
+        <option value="$PROJECT_DIR$/dripbox/config.py" />
+        <option value="$PROJECT_DIR$/SSG/test.py" />
+        <option value="$PROJECT_DIR$/SSG/interface.py" />
+        <option value="$PROJECT_DIR$/ssg/SSGInterface/key.py" />
+        <option value="$PROJECT_DIR$/ssg/SSGClient/fruit.py" />
+        <option value="$PROJECT_DIR$/ssg_model/interface.py" />
+        <option value="$PROJECT_DIR$/ssg_model/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="2" />
-    <option name="width" value="1587" />
-    <option name="height" value="1038" />
+    <option name="x" value="1345" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -143,6 +222,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,57 +251,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dripbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dripbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dripbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dripbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dripbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dripbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,13 +285,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DripBox10" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/python_sdk/ssg" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -273,6 +306,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SSG" />
       <recent name="C:\Users\PJY\PycharmProjects\Dripbox\dripbox" />
       <recent name="C:\Users\PJY\PycharmProjects\DripBox10\DripBox" />
       <recent name="C:\Users\PJY\PycharmProjects\Dripbox" />
@@ -282,7 +316,26 @@
       <recent name="C:\Users\PJY\PycharmProjects\Dripbox\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.Dripbox">
+  <component name="RunManager" selected="Python.test">
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ssg_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Dripbox" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ssg_model/test.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -320,29 +373,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Dripbox" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -364,6 +394,29 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Dripbox" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -412,9 +465,16 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Django server.Dripbox" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
     </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -426,26 +486,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="2" width="1587" height="1038" extended-state="1" />
-    <editor active="false" />
+    <frame x="1345" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24983607" sideWeight="0.6708286" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16030957" sideWeight="0.6723586" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -517,32 +577,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/lib/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/dripbox/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="103" column="40" selection-start="2413" selection-end="2413" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DripBox10/DripBox/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#51#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DripBox10/DripBox/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dripbox/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="29" column="21" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -554,37 +598,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dripbox/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="67" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="62" selection-start="510" selection-end="510" vertical-scroll-proportion="-7.464286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dripbox/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="40" selection-start="2413" selection-end="2413" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="60" selection-start="137" selection-end="137" vertical-scroll-proportion="0.20955883">
+        <state line="6" column="60" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -592,47 +608,81 @@
     <entry file="file://$PROJECT_DIR$/app/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="27" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#20#44#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dripbox/urls.py">
+    <entry file="file://$PROJECT_DIR$/ssg_model/SSGarden.key">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dripbox/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="67" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/python_sdk/ssg/SSGClient/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="0" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0">
+        <state line="155" column="68" selection-start="4205" selection-end="4209" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssg/SSGInterface/key.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="79" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssg_model/test.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssg_model/interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#20#73#0" expanded="true" />
+            <element signature="e#45#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/ssg_model/로고.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssg_model/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="1216" selection-end="1216" vertical-scroll-proportion="-19.678572">
+        <state line="16" column="20" selection-start="368" selection-end="368" vertical-scroll-proportion="0.397351">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssg/SSGClient/fruit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="24" selection-start="2376" selection-end="2376" vertical-scroll-proportion="-8.823529">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/fileController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="25" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="37" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.36106196">
+        <state line="0" column="0" selection-start="0" selection-end="22" vertical-scroll-proportion="-0.85248715">
           <folding />
         </state>
       </provider>
