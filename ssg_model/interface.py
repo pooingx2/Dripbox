@@ -12,12 +12,13 @@ class SSGInterface(object):
 
     def upload(self, user, file_path, fp):
         upload_path = user + ' / ' + file_path
-        print upload_path
+
         fruit = self.tree.new_fruit(quote(upload_path))
         fruit.set_contents_from_file(fp=fp)
 
     def download(self, fruit_name):
-        fruit = self.tree.get_fruit(fruit_name, False)
+        print fruit_name
+        fruit = self.tree.get_fruit(quote(fruit_name), False)
         buf = fruit.get_contents_to_buf()
 
         return buf

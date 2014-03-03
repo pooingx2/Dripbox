@@ -31,12 +31,7 @@ def upload(name, type, size, parent, user, file, path):
     if isExist(parent, name):
         return False
     else:
-        uploadFile = file
-        print uploadFile._name
-        print path
-        print user.email
         # SDK upload 호출
-
         interf = Inter.SSGInterface()
         interf.upload(user.email, path, file)
 
@@ -47,20 +42,19 @@ def upload(name, type, size, parent, user, file, path):
 
 # 파일 다운로드
 def download(email, id):
-
-    file
+    file_path = ''
     try:
         file = File.objects.get(id=id)
-        interface = Inter.SSGInterface()
-        file_buf = interface.download(email+" / "+file.path)
 
-        with file("downloadtest.png", 'wb') as f:
-            f.write(file_buf)
+        # interface = Inter.SSGInterface()
+        # file_buf = interface.download(email+" / "+file.path)
+        with open(file_path, 'rb') as f:
+            file_buf = f.read()
 
     except Exception as e:
         print e
         return str(e)
-    return file
+    return file_buf
 
 
 # 파일 삭제

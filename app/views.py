@@ -37,6 +37,8 @@ def signup(request):
         pwd = request.POST['pwd']
         temp = ""
 
+        print email+ " "+pwd
+
         try:
             temp = User.objects.get(email=email).email
         except Exception as e:
@@ -156,12 +158,11 @@ def home(request):
 
             elif option == "download":
                 id = request.POST['id']
-                file = fileController.download(sessionEmail, id)
+                file_buf = fileController.download(sessionEmail, id)
                 msg = "Download Success"
                 status = 1
 
-                dict = {'msg': msg, 'status': status}
-                # dict = {'msg': msg, 'status': status, 'file': file}
+                dict = {'msg': msg, 'status': status, 'fileBuf': file_buf}
 
             elif option == "delete":
                 id = request.POST['id']

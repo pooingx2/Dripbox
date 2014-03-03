@@ -44,7 +44,7 @@ STATICFILES_FINDERS = (
 
 
 TEMPLATE_DIRS = (
-    'C:/Users/PJY/PycharmProjects/Dripbox/templates',
+    '/home/sungjin/SSGarden/Dripbox/templates',
 )
 
 # Application definition
