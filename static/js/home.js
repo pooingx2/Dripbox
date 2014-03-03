@@ -153,9 +153,7 @@ $(document).ready(function(){
                 success:function(data){
                     console.log(data);
                     alert("msg : " + data['msg']);
-                    if(data['status']==1) {
-                        location.href = location.href;
-                    }
+                    get_file(data['fileBuf'], data['fileName']);
                 },
                 error : function(xhr, status, error) {
                     alert("Status : " + status + "\n" + "Error : " + error);
@@ -229,4 +227,25 @@ $(document).ready(function(){
     fileChooser.onchange = function () {
         traverseFiles(this.files);
     };
+
+    function get_file(buf, filename){
+
+        var uintBuf        = new Uint8Array(buf);
+		var textFileAsBlob = new Blob([uintBuf], { type : 'text/plain' });
+
+		var fileNameToSaveAs = filename;
+
+		var downloadLink = document.createElement("a");
+		downloadLink.download = fileNameToSaveAs;
+		downloadLink.innerHTML = "Download File";
+		if (window.webkitURL != null) {
+			downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
+		} else {
+			downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
+			downloadLink.onclick = destroyClickedElement;
+			downloadLink.style.display = "none";
+			document.body.appendChild(downloadLink);
+		}
+		downloadLink.click();
+	}
 });

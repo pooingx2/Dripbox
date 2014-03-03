@@ -1,0 +1,11 @@
+So what's happening here ? For one thing the special characters are still there, as you can see by executing print on the content variable. But the most important aspect is the actual characters stored by the variable. Look at how š¬ is mapped to \xc2\xba and a to \xc3\xa1, as well as how the error has a symbol "0xc2" which is used to represent š¬. In addition, the last part of the message "ordinal not in range(128)" is indicative of the 128 character mapping limit in ASCII ( See Why you benefit from using UTF-8 Unicode everywhere in your web applications for more details on this limit).
+그림은 왜안
+
+Here it doesn't matter if your input was Unicode/UTF-8, since Python defaults to an ASCII encoding, what you get are ASCII encoded Unicode/UTF-8 characters. So any attempt at performing a unicode operation on them and the interpreter balks, since ASCII doesn't recognize such characters.
+
+Of course if you change the site.py parameters in Python to 'utf-8', you would get rid of the issue. Since Python would expect UTF-8 and you would only need to provide it with UTF-8 input.
+
+But how would you make it work with Python's default configuration ? It's simple, since you already know what type of encoding the content is in you would just need to decode it, as shown in the next snippet
+
+
+이것이 깨진다고? 말도안

@@ -1,4 +1,4 @@
-
+#-*- coding: utf-8 -*-
 __author__ = 'PJY'
 from django.template import loader, Context, Template
 from django.http import HttpResponse
@@ -36,6 +36,8 @@ def signup(request):
         email = request.POST['email']
         pwd = request.POST['pwd']
         temp = ""
+
+        print email+ " "+pwd
 
         try:
             temp = User.objects.get(email=email).email
@@ -156,12 +158,12 @@ def home(request):
 
             elif option == "download":
                 id = request.POST['id']
-                file = fileController.download(sessionEmail, id)
+                file_buf = fileController.download(sessionEmail, id)
+                fileName = File.objects.get(id=id).name
                 msg = "Download Success"
                 status = 1
 
-                dict = {'msg': msg, 'status': status}
-                # dict = {'msg': msg, 'status': status, 'file': file}
+                dict = {'msg': msg, 'status': status, 'fileBuf': file_buf, 'fileName': fileName}
 
             elif option == "delete":
                 id = request.POST['id']
@@ -182,9 +184,6 @@ def home(request):
             except Exception as e:
                 current = "root"
                 print e
-
-            # files = File.objects.all()
-            # files = File.objects.filter(parent=current)
 
             folders = File.objects.select_related().filter(user=sessionEmail, parent=current, type='folder')
             files = File.objects.select_related().filter(user=sessionEmail, parent=current).exclude(type='folder')

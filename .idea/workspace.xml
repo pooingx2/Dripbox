@@ -4,14 +4,15 @@
     <list default="true" id="0b88cedd-f32a-4364-8d01-6164f333c41d" name="Default" comment="" />
     <ignored path="Dripbox.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fileController.py" changelist="0b88cedd-f32a-4364-8d01-6164f333c41d" time="1393840449516" ignored="false" />
+    <file path="/fileController.py" changelist="0b88cedd-f32a-4364-8d01-6164f333c41d" time="1393860546754" ignored="false" />
     <file path="/home.html" changelist="0b88cedd-f32a-4364-8d01-6164f333c41d" time="1393838102576" ignored="false" />
     <file path="/home.css" changelist="0b88cedd-f32a-4364-8d01-6164f333c41d" time="1393836573889" ignored="false" />
-    <file path="/home.js" changelist="0b88cedd-f32a-4364-8d01-6164f333c41d" time="1393836781300" ignored="false" />
-    <file path="/views.py" changelist="0b88cedd-f32a-4364-8d01-6164f333c41d" time="1393838468892" ignored="false" />
+    <file path="/home.js" changelist="0b88cedd-f32a-4364-8d01-6164f333c41d" time="1393860119019" ignored="false" />
+    <file path="/views.py" changelist="0b88cedd-f32a-4364-8d01-6164f333c41d" time="1393860758050" ignored="false" />
     <file path="/models.py" changelist="0b88cedd-f32a-4364-8d01-6164f333c41d" time="1393837095913" ignored="false" />
     <file path="/interface.py" changelist="0b88cedd-f32a-4364-8d01-6164f333c41d" time="1393840701237" ignored="false" />
-    <file path="/settings.py" changelist="0b88cedd-f32a-4364-8d01-6164f333c41d" time="1393839744258" ignored="false" />
+    <file path="/settings.py" changelist="0b88cedd-f32a-4364-8d01-6164f333c41d" time="1393846000143" ignored="false" />
+    <file path="/Dummy.txt" changelist="0b88cedd-f32a-4364-8d01-6164f333c41d" time="1393858486281" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,117 +31,75 @@
     <favorites_list name="Dripbox" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="117" column="0" selection-start="2559" selection-end="2559" vertical-scroll-proportion="-2.9803922">
-                  <folding>
-                    <element signature="e#20#73#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dripbox/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="21" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#0#51#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="interface.py" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ssg_model/interface.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="45" selection-start="786" selection-end="786" vertical-scroll-proportion="0.51282054">
-                  <folding>
-                    <element signature="e#45#83#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="56" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/home.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="47" column="102" selection-start="1959" selection-end="1965" vertical-scroll-proportion="-2.050633">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/static/js/home.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="99" column="37" selection-start="3402" selection-end="3406" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dripbox/settings.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="64" column="34" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="fileController.py" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/fileController.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="14" selection-start="872" selection-end="872" vertical-scroll-proportion="0.54873645">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dripbox/__init__.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="queue.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://C:/Python27/Lib/site-packages/boto/sqs/queue.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="48" column="8" selection-start="1675" selection-end="1675" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="fileController.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/fileController.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="56" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.26760563">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="162" column="30" selection-start="4370" selection-end="4370" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dripbox/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interface.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssg_model/interface.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="41" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="21" selection-start="2443" selection-end="2443" vertical-scroll-proportion="-3.392857">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="233" column="74" selection-start="7725" selection-end="7725" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -148,12 +107,13 @@
         <option value="$PROJECT_DIR$/static/css/home.css" />
         <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/templates/home.html" />
-        <option value="$PROJECT_DIR$/static/js/home.js" />
-        <option value="$PROJECT_DIR$/app/views.py" />
         <option value="C:/Python27/Lib/site-packages/boto/sqs/queue.py" />
-        <option value="$PROJECT_DIR$/dripbox/settings.py" />
-        <option value="$PROJECT_DIR$/app/fileController.py" />
         <option value="$PROJECT_DIR$/ssg_model/interface.py" />
+        <option value="$PROJECT_DIR$/dripbox/settings.py" />
+        <option value="$PROJECT_DIR$/dripbox/urls.py" />
+        <option value="$PROJECT_DIR$/static/js/home.js" />
+        <option value="$PROJECT_DIR$/app/fileController.py" />
+        <option value="$PROJECT_DIR$/app/views.py" />
       </list>
     </option>
   </component>
@@ -262,20 +222,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ssg_model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dripbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dripbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="dripbox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -308,6 +254,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -462,9 +409,39 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Dripbox" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Dripbox" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.manage" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in C:\Users\PJY\PycharmProjects\Dripbox" />
+      <item index="2" class="java.lang.String" itemvalue="Django server.Dripbox" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -484,17 +461,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="0" width="1577" height="1040" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3069307" sideWeight="0.6715742" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20528053" sideWeight="0.67270666" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32842582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3272933" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -566,20 +543,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/site-packages/django/conf/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="53" selection-start="1714" selection-end="1714" vertical-scroll-proportion="1.1413428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="313" selection-end="313" vertical-scroll-proportion="0.6366843">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm20/system/python_stubs/-762174762/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.33333334">
@@ -587,100 +550,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="102" selection-start="1959" selection-end="1965" vertical-scroll-proportion="-2.050633">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="56" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssg/SSGClient/fruit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="8" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.39350182">
-          <folding />
-        </state>
+        <state line="70" column="8" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.39350182" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssg/SSGClient/tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="500" selection-end="500" vertical-scroll-proportion="0.41155234">
-          <folding />
-        </state>
+        <state line="14" column="36" selection-start="500" selection-end="500" vertical-scroll-proportion="0.41155234" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssg/SSGInterface/key.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="415" selection-end="415" vertical-scroll-proportion="0.44584838">
-          <folding />
-        </state>
+        <state line="18" column="31" selection-start="415" selection-end="415" vertical-scroll-proportion="0.44584838" />
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/boto/sqs/queue.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="8" selection-start="1675" selection-end="1675" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="0.06959707" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dripbox/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="37" selection-start="960" selection-end="960" vertical-scroll-proportion="0.44322345">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dripbox/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dripbox/settings.py">
+    <entry file="file://C:/Python27/Lib/site-packages/boto/sqs/queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="34" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.0">
+        <state line="48" column="8" selection-start="1675" selection-end="1675" vertical-scroll-proportion="0.03429603" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="132" selection-end="132" vertical-scroll-proportion="0.16754851" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.3015873">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dripbox/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="0" selection-start="2559" selection-end="2559" vertical-scroll-proportion="-2.9803922">
-          <folding>
-            <element signature="e#20#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="37" selection-start="3402" selection-end="3406" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/fileController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="14" selection-start="872" selection-end="872" vertical-scroll-proportion="0.54873645">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssg_model/interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="45" selection-start="786" selection-end="786" vertical-scroll-proportion="0.51282054">
-          <folding>
-            <element signature="e#45#83#0" expanded="true" />
-          </folding>
+        <state line="21" column="41" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="233" column="74" selection-start="7725" selection-end="7725" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="21" selection-start="2443" selection-end="2443" vertical-scroll-proportion="-3.392857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="30" selection-start="4370" selection-end="4370" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/fileController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="56" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.26760563">
+          <folding />
         </state>
       </provider>
     </entry>
