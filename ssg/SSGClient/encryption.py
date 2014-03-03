@@ -12,9 +12,7 @@ class Encryption(object):
         self.file_size = None
         self.padding_byte = None
 
-    def encrypt(self, file_name):
-        with open(file_name, 'rb') as f:
-            file_buf = f.read()
+    def encrypt(self, file_buf):
 
         renewal_buf, self.file_size = self._padding_data(file_buf)
 

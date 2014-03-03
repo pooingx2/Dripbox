@@ -39,9 +39,9 @@ class Fruit(object):
 
         #download each cloud storage
         #download from s3
-        print "download to s3"
         combiner = file_mng(self.tmp_dir)
         tmp_dir = combiner.tmp_dir
+        print "download to s3"
         self.s3_key.get_contents_to_filename(tmp_dir+"tmp1")
         print "download to ssg"
         self.ssg_key.get_contents_to_filename(tmp_dir+"tmp2")
@@ -62,7 +62,7 @@ class Fruit(object):
 
     def get_contents_to_filename(self, filename):
 
-        dec_buf = self.get_contents_to_buf(filename)
+        dec_buf = self.get_contents_to_buf()
 
         with open(filename, 'wb') as f:
             f.write(dec_buf)
@@ -70,21 +70,14 @@ class Fruit(object):
 
     def set_contents_from_file(self, fp, headers=None, replace=True, cb=None, num_cb=10,
                                policy=None, md5=None, reduced_redundancy=False, encrypt_key=False):
-        src_path = path.dirname(fp)
 
-        self.set_contents_from_filename(src_path, headers, replace, cb,
-                                        num_cb, policy, md5, reduced_redundancy, encrypt_key)
-
-    def set_contents_from_filename(self, filename, headers=None, replace=True, cb=None,
-                                   num_cb=10, policy=None, md5=None, reduced_redundancy=False,
-                                   encrypt_key=False):
         self.ssg_key = self.tree.ssg_bucket.new_key(self.name)
         enc_file_path = self.tmp_dir + 'enc_file'
         #upload file by using file name(string)
         #flow : encrypt file -> split file -> upload each cloud -> flush tmp dir
         #encrypt file
         enc = Encryption(self.tree.connection._cre.meta_pw)
-        enc_buf = enc.encrypt(filename)
+        enc_buf = enc.encrypt(fp.read())
         with open(enc_file_path, 'wb') as f:
             f.write(enc_buf)
 
@@ -114,8 +107,13 @@ class Fruit(object):
         splitter.flush_tmp_dir()
 
         #error시엔 둘다 지우는거로......
-
         print "upload success!"
+
+    def set_contents_from_filename(self, filename, headers=None, replace=True, cb=None,
+                                   num_cb=10, policy=None, md5=None, reduced_redundancy=False,
+                                   encrypt_key=False):
+        with open(filename, 'rb') as f:
+            self.set_contents_from_file(f)
 
     def close(self):
         #close s3_key

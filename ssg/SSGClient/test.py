@@ -7,27 +7,26 @@ from ssg.SSGClient.connection import Connection
 
 if __name__ == "__main__":
     current_dir = path.dirname(path.abspath(__file__))
-    conn = Connection(current_dir + '/../SSGarden.key')
+    conn = Connection(current_dir + '/../../SSGarden.key')
     print conn.ssg_conn.header
-    tree_name = 'drip_tree'
+    tree_name = 'upload_test'
     #tree_name = 'test_tree'
-    fruit_name = 'ccc.pptx'
-    target_file = current_dir + '/../로고포인트준것.png'
-    des_file = current_dir + '/되어랏.pptx'
+    fruit_name = 'test1'
+    target_file = current_dir + '/test.png'
+    des_file = current_dir + '/되어랏.png'
 
-    test_tree = conn.create_tree(tree_name, False)
+    test_tree = conn.get_tree(tree_name, False)
     # print test_tree.s3_bucket.name
-    # fruit = test_tree.get_fruit(fruit_name, False)
+    fruit = test_tree.get_fruit(fruit_name)#, False)
     # print fruit.exists()
     # print "ttt" + str(fruit.get_metadata())
     # fruit.get_contents_to_filename(des_file)
-    # fruit.set_contents_from_filename(target_file)
+    # fruit.get_contents_to_filename(target_file)
+    with open(target_file, 'rb') as f:
+        fruit.set_contents_from_file(f)
     # print fruit.s3_key.name
 
 
-
-
-    #4326501
 
     # fruit.set_contents_from_filename(target_file)
     # print test_tree.get_location()
