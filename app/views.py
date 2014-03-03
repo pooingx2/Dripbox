@@ -109,6 +109,11 @@ def logout(request):
 
 @csrf_exempt
 def home(request):
+    """
+
+    :param request:
+    :return:
+    """
     if "email" in request.session:
 
         sessionEmail = request.session["email"]
@@ -120,8 +125,10 @@ def home(request):
                 type = request.POST['type']
                 size = request.POST['size']
                 parent = request.POST['parent']
+                path = request.POST['path'] + " / " + name
+
                 if fileController.createFolder(name, type, size,
-                                parent, User.objects.get(email=sessionEmail)):
+                                               parent, User.objects.get(email=sessionEmail), path):
                     msg = "Create Success"
                     status = 1
                 else:
@@ -136,8 +143,9 @@ def home(request):
                 size = request.POST['size']
                 parent = request.POST['parent']
                 uploadFile = request.FILES['file']
+                path = request.POST['path'] + " / " + name
                 if fileController.upload(name, type, size, parent,
-                                         User.objects.get(email=sessionEmail), uploadFile):
+                                         User.objects.get(email=sessionEmail), uploadFile, path):
                     msg = "Upload Success"
                     status = 1
                 else:
@@ -167,19 +175,22 @@ def home(request):
 
         if request.method == 'GET':
 
+            path = "root"
             try:
                 current = request.GET['id']
+                path = File.objects.get(id=current).path
             except Exception as e:
                 current = "root"
                 print e
 
             # files = File.objects.all()
             # files = File.objects.filter(parent=current)
+
             folders = File.objects.select_related().filter(user=sessionEmail, parent=current, type='folder')
             files = File.objects.select_related().filter(user=sessionEmail, parent=current).exclude(type='folder')
 
             t = loader.get_template('home.html')
-            c = Context({'email': sessionEmail, 'folders': folders, 'files': files },)
+            c = Context({'email': sessionEmail, 'folders': folders, 'files': files, 'path': path},)
 
             return HttpResponse(t.render(c))
 

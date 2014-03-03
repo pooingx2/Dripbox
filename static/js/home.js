@@ -39,6 +39,7 @@ $(document).ready(function(){
             alert("폴더 이름을 입력하세요.");
         }
         else{
+            var path = $('#filePath').text();
             $.ajax({
                 type : "POST",
                 url : '/home/',
@@ -47,7 +48,8 @@ $(document).ready(function(){
                     name: folderName,
                     type: "folder",
                     size: "--",
-                    parent: current
+                    parent: current,
+                    path: path
                 },
                 dataType: "json",
                 success:function(data){
@@ -67,6 +69,7 @@ $(document).ready(function(){
 
     $('#uploadBtn').click(function() {
         var fileChooser = document.getElementById("fileChooser");
+        var path = $('#filePath').text();
 
         if(fileChooser.files.length == 0){
             alert("파일을 선택하세요.");
@@ -97,6 +100,7 @@ $(document).ready(function(){
                     data.append('size', size);
                     data.append('parent', current);
                     data.append('file', file);
+                    data.append('path', path);
 
                     $.ajax({
                         type : "POST",

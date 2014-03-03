@@ -15,4 +15,5 @@ class File(models.Model):
     type = models.CharField(max_length=20)
     size = models.CharField(max_length=20)
     parent = models.CharField(max_length=20)
+    path = models.CharField(max_length=100)
     user = models.ForeignKey(User)
