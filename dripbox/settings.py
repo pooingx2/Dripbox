@@ -57,6 +57,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app',
+    'ssg',
+    'ssg_model',
 )
 
 MIDDLEWARE_CLASSES = (

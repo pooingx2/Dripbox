@@ -1,17 +1,20 @@
 #-*- coding: utf-8 -*-
 #!/usr/bin/env python
 from __future__ import absolute_import
-import sys
+from urllib2 import quote
 from ssg.SSGClient import connection
+from os import path
 
 
 class SSGInterface(object):
     _connection = None
     _tree = None
 
-    def upload(self, file_path):
-        fruit = self.tree.new_fruit(file_path)
-        fruit.set_contents_from_filename(file_path)
+    def upload(self, user, file_path, fp):
+        upload_path = user + ' / ' + file_path
+        print upload_path
+        fruit = self.tree.new_fruit(quote(upload_path))
+        fruit.set_contents_from_file(fp=fp)
 
     def download(self, fruit_name):
         fruit = self.tree.get_fruit(fruit_name, False)
@@ -22,7 +25,8 @@ class SSGInterface(object):
     @property
     def connection(self):
         if self._connection is None:
-            self._connection = connection.Connection("SSGarden.key")
+            dir = path.dirname(path.abspath(__file__))
+            self._connection = connection.Connection(dir+"/SSGarden.key")
         return self._connection
 
     @property

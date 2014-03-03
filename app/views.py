@@ -156,7 +156,7 @@ def home(request):
 
             elif option == "download":
                 id = request.POST['id']
-                file = fileController.download(id)
+                file = fileController.download(sessionEmail, id)
                 msg = "Download Success"
                 status = 1
 
@@ -165,7 +165,7 @@ def home(request):
 
             elif option == "delete":
                 id = request.POST['id']
-                fileController.delete(id)
+                fileController.delete(sessionEmail, id)
                 msg = "Delete Success"
                 status = 1
 
